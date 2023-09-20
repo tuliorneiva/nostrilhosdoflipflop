@@ -132,6 +132,10 @@ nav {
   margin: auto;
 }
 
+.main-content .post-info {
+  margin-left: 20px;
+}
+
 .main-content h1 {
     text-align: center;
 }
@@ -144,9 +148,29 @@ nav {
 .content .main-content img {
     width: 50%;
     display: block;
+    border-radius: 5px;
+    box-shadow: 2rem 2rem 2rem -2rem #a0a0a033;
     margin: 50px auto;
 }
 
+.main-content .text-introduction {
+  margin-bottom: 70px;
+}
+
+
+iframe{
+  margin-top: 50px;
+  margin-bottom: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 5px;
+}
+
+
+.main-content .text-paragraph {
+  margin-bottom: 40px;
+}
 
 .footer {
   background: #303036;
